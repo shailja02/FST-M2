@@ -29,7 +29,7 @@
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">token 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</stringProp>
+              <stringProp name="Header.value">token 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</stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
@@ -52,7 +52,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="sshKey" elementType="Argument">
               <stringProp name="Argument.name">sshKey</stringProp>
-              <stringProp name="Argument.value">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEp3b70jBPwhj+hlXYd8rkWMI73kMTkKW3/7y4Mfcl5G gmx\\07003i744@IBM-PF3JXQFW</stringProp>
+              <stringProp name="Argument.value">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHl3PEiBFhBMiZcWAgfhgofA6uWiLBLJ7I9CgPdDjJDv</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>

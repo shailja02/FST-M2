@@ -29,7 +29,7 @@ drwxr-xr-x   - root supergroup          0 2022-12-30 05:03 /user/root/textData
 
 root@44f82eb80973:/# vi sales.csv
 
--- Load the CSV file
+-- Load CSV file
 salesTable = LOAD 'hdfs:///user/root/sales.csv' USING PigStorage(',') AS (Product:chararray,Price:chararray,Payment_Type:chararray,Name:chararray,City:chararray,State:chararray,Country:chararray);
 -- Group data using the country column
 GroupByCountry = GROUP salesTable BY Country;

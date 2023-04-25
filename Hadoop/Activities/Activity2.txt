@@ -20,7 +20,7 @@ cntd = FOREACH grpd GENERATE group, COUNT(words);
 -- Store the result in HDFS
 STORE cntd INTO 'hdfs:///user/root/results';
 
-root@44f82eb80973:/# pig wordcount.pig
+root@44f82eb80973:/# pig wordcount.pig 
 
 2022-12-30 05:13:30,065 INFO pig.ExecTypeProvider: Trying ExecType : LOCAL
 2022-12-30 05:13:30,066 INFO pig.ExecTypeProvider: Trying ExecType : MAPREDUCE
